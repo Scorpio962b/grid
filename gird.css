@@ -1,0 +1,36 @@
+header{
+     border: 2px solid black;
+     height:100px;
+     background-color:crimson;
+    }
+nav{
+     border: 2px solid white;
+     width:50px;
+     height:45px;
+     float: left;
+
+}
+.row { 
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    gap:7em;
+    justify-content: center;
+}
+.colomn1{
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.container{
+     padding: 28px;
+    margin-top: 20px;
+    background-color: slategray;
+}
+
+footer{
+    background-color: peru;
+    height: 50px
+    border: 50px;
+}
